@@ -52,7 +52,7 @@ Specific definitions of all Variables and cost parameters may be found [here](ht
 
 1. When clicking the `Run` button for the first time, the LP solver may take a little longer to run (up to 2 minutes).
 
-2. The Uploaders are bugged and do not function. If you wish to run the optimizer with CSV files other than the one used, use the `download` button to download the empty templates and fill them in. Once done, copy them into the `uploads` folder. Then, open app.jl in your code editor, and rename the `Select_demand`, `Select_para`, and `Select_workers` variables as follows:
+2. The Uploaders are bugged and do not function. If you wish to run the optimizer with CSV files other than the one used, use the `download` button to download the empty templates and fill them in. Once done, copy them into the `uploads` folder. Then, open the `app.jl` file in your code editor, and rename the `Select_demand`, `Select_para`, and `Select_workers` variables as follows:
 
 ```julia
 @in Select_demand = "YOUR_DEMAND_FILE.csv" #Replace the Select_demand value with your demand file name
