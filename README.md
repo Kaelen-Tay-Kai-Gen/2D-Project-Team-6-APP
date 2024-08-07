@@ -1,4 +1,4 @@
-# Term 5 2D Project
+# Term 5 2D Project: OPTIFLEX
 
 
 This project aims to develop a versatile full-stack Aggregate Production Planning (APP) software that optimizes workforce and inventory levels using Linear Programming. 
