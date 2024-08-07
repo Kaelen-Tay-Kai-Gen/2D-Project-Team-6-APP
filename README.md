@@ -60,8 +60,10 @@ Specific definitions of all Variables and cost parameters may be found [here](ht
 ```julia
 @in Select_demand = "YOUR_DEMAND_FILE.csv" #Replace the Select_demand value with your demand file name
 @in Select_demand_list = ["Select Demand File", "demand_data_final_sample.csv", "YOUR_DEMAND_FILE.csv"]
+
 @in Select_para = "YOUR_PARAMETER_FILE.csv" #Replace the Select_parameter value with your parameter file name
 @in Select_para_list = ["Select Parameter File", "para_data_final_sample.csv", "YOUR_PARAMETER_FILE.csv"]    
+
 @in Select_workers = "YOUR_WORKERS_FILE.csv" #Replace the Select_workers with your workers file name
 @in Select_workers_list = ["Select Workers File", "worker_data_final_sample.csv", "YOUR_WORKERS_FILE.csv"]
 ```
