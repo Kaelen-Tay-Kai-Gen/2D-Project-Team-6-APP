@@ -1,6 +1,5 @@
 # Term 5 2D Project: OPTIFLEX
 
-
 This project aims to develop a versatile full-stack Aggregate Production Planning (APP) software that optimizes workforce and inventory levels using Linear Programming. 
 
 ## Installation
@@ -43,6 +42,10 @@ Alternatively, you can run the app with [Genie Builder](https://marketplace.visu
 ## Usage
 
 Open your browser and navigate to `http://localhost:8000/`.
+
+## File structure
+
+Front-End code for the Genie UI is stored in the [app.jl](https://github.com/Kaelen-Tay-Kai-Gen/2D-Project-Team-6-APP/blob/main/OPTIFLEX%20Genie%20App/app.jl) file. Back-End code is stored in the [Backend_Optimizer.jl](https://github.com/Kaelen-Tay-Kai-Gen/2D-Project-Team-6-APP/tree/main/OPTIFLEX%20Genie%20App/lib) file within the `lib` folder. Templates for upload CSVs and sample upload/download files are also stored within `lib`. **Do not delete these files!**
 
 ## LP formulation
 
