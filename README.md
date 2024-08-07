@@ -9,7 +9,7 @@ Clone the repository and install the following dependencies:
 
 Ensure you have the latest version of Julia installed, and the latest version of Gurobi installed (with a valid license).
 
-Open a terminal (cmd, powershell, Julia, etc.) of your choice. Working in VSCode with the Julia extension is strongly recommended.
+Open a terminal (cmd, powershell, Julia, etc.) of your choice. Working in VSCode with the [Julia extension](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) is strongly recommended.
 
 First `cd` into the project directory. Ensure the following Julia packages are installed:
 
