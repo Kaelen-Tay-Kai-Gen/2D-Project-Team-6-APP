@@ -37,7 +37,7 @@ julia> Genie.loadapp() # load app
 julia> up() # start server
 ```
 
-Alternatively, you can run the app with [Genie Builder](https://marketplace.visualstudio.com/items?itemName=GenieBuilder.geniebuilder) in VScode (the uploader bug disappears when the app is run in Genie Builder; however, a paid subscription may be required to render the graphs). An introductory guide is available [here](https://learn.genieframework.com/geniebuilder/docs).
+Alternatively, you can run the app with [Genie Builder](https://marketplace.visualstudio.com/items?itemName=GenieBuilder.geniebuilder) in VScode (note that a paid subscription may be required to render the graphs). An introductory guide is available [here](https://learn.genieframework.com/geniebuilder/docs).
 
 ## Usage
 
