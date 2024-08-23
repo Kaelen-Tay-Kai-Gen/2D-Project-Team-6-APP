@@ -47,6 +47,8 @@ Open your browser and navigate to `http://localhost:8000/`.
 
 Front-End code for the Genie UI is stored in the [app.jl](https://github.com/Kaelen-Tay-Kai-Gen/2D-Project-Team-6-APP/blob/main/OPTIFLEX%20Genie%20App/app.jl) file. Back-End code is stored in the [Backend_Optimizer.jl](https://github.com/Kaelen-Tay-Kai-Gen/2D-Project-Team-6-APP/tree/main/OPTIFLEX%20Genie%20App/lib) file within the `lib` folder. Templates for upload CSVs and sample upload/download files are also stored within `lib`. **Do not delete these files!**
 
+(Note that clicking the `Clear All` button does not delete the sample files.)
+
 ## LP formulation
 
 Specific definitions of all Variables and cost parameters may be found [here](https://docs.google.com/document/d/1MLJF5VuhOFrI6JguJtWFDWgfCjEkQjxdbmZNGW0y3ug/edit?usp=sharing).
@@ -55,7 +57,7 @@ Specific definitions of all Variables and cost parameters may be found [here](ht
 
 1. When clicking the `Run` button for the first time, the LP solver may take a little longer to run (up to 2 minutes).
 
-2. The Uploaders are bugged and do not function. If you wish to run the optimizer with CSV files other than the one used, use the `download` button to download the empty templates and fill them in. Once done, copy them into the `uploads` folder. Then, open the `app.jl` file in your code editor, and rename the `Select_demand`, `Select_para`, and `Select_workers` variables as follows:
+2. The uploader components now function reliably, but they have been prone to buggy behaviour in the past. If you are struggling to upload files and wish to run the optimizer with CSV files other than the one used, use the `download` button to download the empty templates and fill them in. Once done, copy them into the `uploads` folder. Then, open the `app.jl` file in your code editor, and rename the `Select_demand`, `Select_para`, and `Select_workers` variables as follows:
 
 ```julia
 @in Select_demand = "YOUR_DEMAND_FILE.csv" #Replace the Select_demand value with your demand file name
