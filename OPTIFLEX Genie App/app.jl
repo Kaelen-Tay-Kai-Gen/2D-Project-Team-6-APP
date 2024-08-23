@@ -27,7 +27,10 @@ function delete_files(folder, dir)
     for file in folder
         @info "delete function looping"
         file_path = joinpath(dir, file)
-        if isfile(file_path)
+        @info typeof(file)
+        if (file == "demand_data_final_sample.csv") || (file == "para_data_final_sample.csv") || (file == "worker_data_final_sample.csv")
+            @info "sample files protected from deletion!"
+        elseif isfile(file_path)
             try
                 rm(file_path)
                 println("Deleted file: ", file_path)
@@ -65,11 +68,11 @@ end
 
 
     #Dropdown list variables
-    @in Select_demand = "demand_data_final_sample.csv"
+    @in Select_demand = "Select Demand File"
     @in Select_demand_list = ["Select Demand File", "demand_data_final_sample.csv"]
-    @in Select_para = "para_data_final_sample.csv"
+    @in Select_para = "Select Parameter File"
     @in Select_para_list = ["Select Parameter File", "para_data_final_sample.csv"]    
-    @in Select_workers = "worker_data_final_sample.csv"
+    @in Select_workers = "Select Workers File"
     @in Select_workers_list = ["Select Workers File", "worker_data_final_sample.csv"]
 
     @in worker_type = "Select worker type"    #Variables for Graphs
@@ -119,7 +122,7 @@ end
     @in updateClearButtonClicked = false
 
     @in Radio_buttons = ""            #Radio Buttons (<=/=/>=) Variable
-    
+
     @out updatedHiringValue = 0       #I'm pretty sure these don't do anything,
     @out updatedFiringValue = 0       #but I'm not gonna delete them on the off chance
     @out updatedInventoryValue = 0    #that something goes horribly wrong lol
@@ -154,11 +157,12 @@ end
 
     #Upload location handler
     @onchange fileuploads begin
-        @info "Here!"
+        @info "Checkpoint: onchange activated"
         if !isempty(fileuploads)
             @info fileuploads
-            @info "onchange"
+            @info "Checkpoint: verified that upload exists"
 
+            @info Select
             if Select == "Demand"
                 filename = fileuploads["name"]
                 @info filename
@@ -168,9 +172,7 @@ end
                 catch e
                     @error "Error processing file: $(e)"
                 end
-                @info fileuploads
-                fileuploads = Dict{AbstractString,AbstractString}()
-                @info fileuploads
+
                 Select_demand_list = add_file(filename, Select_demand_list)
                 Select_demand = Select_demand_list[end]
                 @show Select_demand_list
@@ -185,7 +187,7 @@ end
                 catch e
                     @error "Error processing file: $(e)"
                 end
-                fileuploads = Dict{AbstractString,AbstractString}()
+
                 Select_para_list = add_file(filename, Select_para_list)
                 Select_para = Select_para_list[end]
                 @show Select_para_list
@@ -200,26 +202,44 @@ end
                 catch e
                     @error "Error processing file: $(e)"
                 end
-                fileuploads = Dict{AbstractString,AbstractString}()
+
                 Select_workers_list = add_file(filename, Select_workers_list)
                 Select_workers = Select_workers_list[end]
                 @show Select_workers_list
             end
+            @info "Checkpoint: Upload saved to correct folder"
 
-            #Reset Select
+            #Reset
             Select = ""
+            @info fileuploads
+            fileuploads = Dict{AbstractString,AbstractString}()
+            @info fileuploads
+    
         end
     end
-    
+
     #Upload event handlers
     @event demand_uploaded begin
         @info "Demand file uploaded"
+        @info fileuploads
+        fileuploads = Dict{AbstractString,AbstractString}()
+        @info fileuploads
+        @info "Checkpoint: Select and fileuploads cleared"
+
     end
     @event para_uploaded begin
-        @info "Parameter file uploaded."
+        @info "Parameter file uploaded"
+        @info fileuploads
+        fileuploads = Dict{AbstractString,AbstractString}()
+        @info fileuploads
+        @info "Checkpoint: Select and fileuploads cleared"
     end
     @event workers_uploaded begin
-        @info "Workers file uploaded."
+        @info "Workers file uploaded"
+        @info fileuploads
+        fileuploads = Dict{AbstractString,AbstractString}()
+        @info fileuploads
+        @info "Checkpoint: Select and fileuploads cleared"
     end
 
     @event demand_rejected begin
@@ -268,28 +288,30 @@ end
     end
 
     @event demand_uploading begin
-        @info "Demand file uploading. Select set to:"
-        @info fileuploads
+        @info "Demand file uploading"
         try
             Select = "Demand"
         catch e
         end
+        @info "Select set to:"
         @info Select        
     end
     @event para_uploading begin
-        @info "Parameter file uploading. Select set to:"
+        @info "Parameter file uploading"
         try
             Select = "Parameter"
         catch e
         end
+        @info "Select set to:"
         @info Select
     end
     @event workers_uploading begin
-        @info "Workers file uploading. Select set to:"
+        @info "Workers file uploading"
         try
             Select = "Workers"
         catch e
         end
+        @info "Select set to:"
         @info Select
     end
 
@@ -334,20 +356,23 @@ end
                 workers_dir = joinpath("lib", "uploads", "workers")
                 workers_files = readdir(workers_dir)
                 @info "directories retrieved for deletion"
+                @info demand_files
                 delete_files(demand_files, demand_dir)
                 delete_files(para_files, para_dir)
                 delete_files(workers_files, workers_dir)
-                
+
             catch e
                 @error e
             end
 
+            @info "all files deleted, resetting all variables"
+
             #Clear dropdowns
-            Select_demand_list = ["Select Demand File"]
+            Select_demand_list = ["Select Demand File", "demand_data_final_sample.csv"]
             Select_demand = Select_demand_list[1]
-            Select_para_list = ["Select Parameter File"]
+            Select_para_list = ["Select Parameter File", "para_data_final_sample.csv"]
             Select_para = Select_para_list[1]            
-            Select_workers_list = ["Select Workers File"]
+            Select_workers_list = ["Select Workers File", "worker_data_final_sample.csv"]
             Select_workers = Select_workers_list[1]
             worker_list = ["Select worker type"]
             worker_type = worker_list[1]
@@ -369,13 +394,13 @@ end
             AC_List = []
             Temp_List = []
             Display_List = []
-            
+
             #Clear cost display panels
             results_cost = 0
             results_H_cost = 0
             results_F_cost = 0
             results_I_cost = 0
-            
+
             #Clear graphs
             results_x = Float64[]
             results_y_W = Float64[]
@@ -453,7 +478,7 @@ end
         end
     end
 
-    
+
     # Run Button handler
     @event run begin
         run_loading = true
@@ -546,6 +571,7 @@ end
     @onchange Select_para begin
         if (Select_demand!="Select Demand File") && (Select_para!="Select Parameter File") && (Select_workers!="Select Workers File")
             disable_inputs = false
+            @info "enabled"
         else
             disable_inputs = true
         end
@@ -554,6 +580,7 @@ end
     @onchange Select_workers begin
         if (Select_demand!="Select Demand File") && (Select_para!="Select Parameter File") && (Select_workers!="Select Workers File")
             disable_inputs = false
+            @info "enabled"
         else
             disable_inputs = true
         end
@@ -622,22 +649,33 @@ end
     end
 
     @onchange ValueField begin
-        if isnothing(validate_integer(ValueField))
-            msgV = "Invalid input: Please enter an integer for Value."
-        elseif (isnothing(validate_integer(WorkerType)) && (isHiringChecked || isFiringChecked))
+        if (ValueField == "" && (isHiringChecked || isFiringChecked || isInventoryChecked))
+            msgV = "Invalid input: not +ve integer"
+        elseif (isnothing(validate_integer(ValueField)) || validate_integer(ValueField) < 0) && !ClearUploadsClicked
+            notify(__model__, "Invalid input. Please enter a positive integer.")
+            msgV = "Invalid input: not +ve integer"
+            ValueField = ""
+        else
             msgV = "Value: $(ValueField)"
         end
     end
 
-    @onchange updateButtonClicked begin #Add Constraint button handler
+    @onchange updateButtonClicked begin #"Add Constraint" button handler
         if updateButtonClicked
+            @info "Hi."
             # Process the checkbox values only if the inputs are valid integers
 
             if Radio_buttons == "" #Check that an operator has been specified
+                @info "Error caught: radio buttons left empty."
                 notify(__model__, "Invalid input: Please set an operator (≤/=/≥)")
+            
+            elseif !(isHiringChecked || isFiringChecked || isInventoryChecked)
+                @info "Error caught: checkbox not selected."
+                notify(__model__, "Invalid input: Checkboxes left empty")
 
-            elseif nothing
-                notify(__model__, "Invalid input: Please fill in all required fields (t, i/j)")
+            elseif ((isHiringChecked && isInventoryChecked) || (isFiringChecked && isInventoryChecked))
+                @info "Error caught: wrong checkbox selection."
+                notify(__model__, "Invalid input: Unable to set H/F simultaneously with I.")
 
             else
                 try
@@ -687,13 +725,12 @@ end
                         Displaystring = join(string.(Concopy), " ")
                         add_file(Displaystring, Display_List) #Not actually adding a file, but this func also works to push into arrays
                     end
-                    
-                    updateButtonClicked = false
+
                     @info "AC_List:"
                     @info AC_List
                     @info "Display_List:"
                     @info Display_List
-                
+
                 catch e
                     # Handle invalid inputs
                     @error e
@@ -702,10 +739,11 @@ end
                     msgW = "Error: Please fix invalid/missing inputs."
                     msgP = "Error: Please fix invalid/missing inputs."
                     msgV = "Error: Please fix invalid/missing inputs."
-                    updateButtonClicked = false
                 end
             end
             Display_List = Display_List
+            updateButtonClicked = false
+            @info "Button update complete"
         end
     end
 
@@ -792,10 +830,10 @@ end
     #Graph handlers
     @onchange worker_type begin
         if worker_type != "Select worker type"
-            
+
             #Start by resetting the DataFrame
             results_Wgraph = results_workforce 
-            
+
             #Filter the DataFrame for selected j
             selected_j = parse(Int, worker_type)
             results_Wgraph = filter(row -> row.j == selected_j, results_Wgraph)
@@ -814,18 +852,18 @@ end
             results_y_F = results_Wgraph.F                
         end
     end
-        
-    
+
+
     @onchange product_type begin
         if product_type != "Select product type"
-            
+
             #Start by resetting the DataFrame
             results_Igraph = results_inventory
 
             #Filter the DataFrame for selected i
             selected_i = parse(Int, product_type)
             results_Igraph = filter(row -> row.i == selected_i, results_Igraph)
-            
+
             #Update graph
             results_x_I = results_Igraph.t
             results_y_I = results_Igraph.I
@@ -847,11 +885,11 @@ end
             # Display graphs
 
             results_x_I = results.t
-            
+
             #results.i is a Vector that reads from column 'i' of the results DataFrame.
             #We save this to results_x to map to the x-axis of the graphs.
             #y axis works the same way.
-        
+
             results_y_W = results.W #y-axis for Workforce
 
             results_y_I = results.I #y-axis for Inventory
@@ -872,20 +910,15 @@ end
         dummy_update = true
     end
 
-    route("/____/upload/:channel", method="POST") do
-        channel = params(:channel)
-        @info "Upload route for channel: $channel"
-
-        @info filespayload() #This captures the upload but idk how to transfer it into fileuploads properly DDD:
-    end
+end
 
 # == PAGES ==
 # register a new route and the page that will be loaded on access
+
 @page("/", "app.jl.html")
 end
-end
 # == ADVANCED FEATURES ==
-#(We are not using this)
+#(Unused)
 #=
 - The @private macro defines a reactive variable that is not sent to the browser. 
 This is useful for storing data that is unique to each user session but is not needed

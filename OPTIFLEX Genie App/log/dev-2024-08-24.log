@@ -1,0 +1,565 @@
+┌ Info: 2024-08-24 01:56:21 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 01:56:21 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 01:56:32 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 01:56:32 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 01:56:33 
+│ Web Server starting at http://127.0.0.1:9104?CHANNEL__=HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD 
+└ @ Genie.Server C:\Users\kaele\.julia\packages\Genie\uliWf\src\Server.jl:182
+┌ Info: 2024-08-24 01:56:33 Listening on: 127.0.0.1:9104, thread id: 1
+└ @ HTTP.Servers C:\Users\kaele\.julia\packages\HTTP\sJD5V\src\Servers.jl:382
+┌ Info: 2024-08-24 01:57:28 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 01:57:28 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 01:57:37 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:561
+┌ Info: 2024-08-24 01:57:41 enabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:577
+┌ Info: 2024-08-24 01:57:50 lib\uploads\workers\worker_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:607
+┌ Info: 2024-08-24 01:57:50 Any["", 0, 0, 0, "=", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:790
+┌ Info: 2024-08-24 01:57:50 Any["", 0, 0, 0, "", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:791
+┌ Info: 2024-08-24 01:57:50 Any["", 0, 0, 0, "", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:792
+┌ Info: 2024-08-24 01:57:51 Hi.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:659
+┌ Info: 2024-08-24 01:57:51 AC_List:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:723
+┌ Info: 2024-08-24 01:57:51 Any[Any["H", 3, "n/a", 1, "=", 2]]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:724
+┌ Info: 2024-08-24 01:57:51 Display_List:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:725
+┌ Info: 2024-08-24 01:57:51 Any["H 3 n/a 1 = 2"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:726
+┌ Info: 2024-08-24 01:57:51 Button update complete
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:740
+┌ Info: 2024-08-24 01:57:59 Checkpoint: Custom constraints received
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:488
+┌ Info: 2024-08-24 01:57:59 lib\uploads\demand\demand_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:490
+┌ Info: 2024-08-24 01:57:59 lib\uploads\parameters\para_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:491
+┌ Info: 2024-08-24 01:57:59 lib\uploads\workers\worker_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:492
+┌ Info: 2024-08-24 01:57:59 Checkpoint: Data extracted
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:498
+┌ Info: 2024-08-24 01:57:59 Checkpoint: Function accessed
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:21
+┌ Info: 2024-08-24 01:57:59 n_periods:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:36
+┌ Info: 2024-08-24 01:57:59 12
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:37
+┌ Info: 2024-08-24 01:57:59 n_products:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:39
+┌ Info: 2024-08-24 01:57:59 5
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:40
+┌ Info: 2024-08-24 01:57:59 n_workers:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:52
+┌ Info: 2024-08-24 01:57:59 3
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:53
+┌ Info: 2024-08-24 01:57:59 Checkpoint: Data Extracted
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:68
+┌ Info: 2024-08-24 01:58:00 Checkpoint: Model Initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:75
+┌ Info: 2024-08-24 01:58:02 Checkpoint: Defined Variables
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:90
+┌ Info: 2024-08-24 01:58:02 Checkpoint: Defined constraints
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:141
+┌ Info: 2024-08-24 01:58:02 Any["H", 3, "n/a", 1, "=", 2]
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:154
+┌ Info: 2024-08-24 01:58:02 Checkpoint: Additional Constraints received successfully.
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:185
+┌ Info: 2024-08-24 01:58:03 Checkpoint: Defined Objective Function
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:206
+┌ Info: 2024-08-24 01:58:05 Checkpoint: Optimized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:211
+┌ Info: 2024-08-24 01:58:05 Checkpoint: Feasibility Verified
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:218
+┌ Info: 2024-08-24 01:58:05 0×5 DataFrame
+│  Row │ t      j      W        H        F
+│      │ Int64  Int64  Float64  Float64  Float64
+│ ─────┴─────────────────────────────────────────
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:229
+┌ Info: 2024-08-24 01:58:05 Checkpoint: results DataFrames initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:243
+┌ Info: 2024-08-24 01:58:05 Checkpoint: results saved
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:276
+┌ Info: 2024-08-24 01:58:05 lib\downloads\optimal_workforce.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:280
+┌ Info: 2024-08-24 01:58:05 lib\downloads\optimal_inventory.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:288
+┌ Info: 2024-08-24 01:58:06 Checkpoint: results written to file
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:295
+┌ Info: 2024-08-24 01:58:06 Checkpoint: results printed (disabled)
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:313
+┌ Info: 2024-08-24 01:58:06 Success!
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:314
+┌ Info: 2024-08-24 01:58:07 1447140
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:502
+┌ Info: 2024-08-24 01:58:07 Checkpoint: Optimized results saved successfully
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:509
+┌ Info: 2024-08-24 01:58:07 Checkpoint: Graphs rendering successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:530
+┌ Info: 2024-08-24 01:58:08 Graph dropdown lists:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:541
+┌ Info: 2024-08-24 01:58:08 ["Select worker type", "1", "2", "3"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:542
+┌ Info: 2024-08-24 01:58:08 ["Select product type", "1", "2", "3", "4", "5"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:543
+┌ Info: 2024-08-24 01:58:08 Checkpoint: Dropdowns updated successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:544
+┌ Info: 2024-08-24 02:01:37 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:01:37 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:04:21 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:04:21 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:05:11 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:348
+┌ Info: 2024-08-24 02:05:11 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:355
+┌ Info: 2024-08-24 02:05:11 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:05:11 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Error: 2024-08-24 02:05:11 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:361
+┌ Info: 2024-08-24 02:05:12 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:561
+┌ Info: 2024-08-24 02:08:20 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:08:21 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:08:31 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:08:31 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:08:32 
+│ Web Server starting at http://127.0.0.1:9104?CHANNEL__=HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD 
+└ @ Genie.Server C:\Users\kaele\.julia\packages\Genie\uliWf\src\Server.jl:182
+┌ Info: 2024-08-24 02:08:32 Listening on: 127.0.0.1:9104, thread id: 1
+└ @ HTTP.Servers C:\Users\kaele\.julia\packages\HTTP\sJD5V\src\Servers.jl:382
+┌ Info: 2024-08-24 02:09:35 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:563
+┌ Info: 2024-08-24 02:09:37 enabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:579
+┌ Info: 2024-08-24 02:09:48 Checkpoint: Custom constraints received
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:490
+┌ Info: 2024-08-24 02:09:48 lib\uploads\demand\demand_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:492
+┌ Info: 2024-08-24 02:09:48 lib\uploads\parameters\para_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:493
+┌ Info: 2024-08-24 02:09:48 lib\uploads\workers\worker_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:494
+┌ Info: 2024-08-24 02:09:50 Checkpoint: Data extracted
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:500
+┌ Info: 2024-08-24 02:09:50 Checkpoint: Function accessed
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:21
+┌ Info: 2024-08-24 02:09:50 n_periods:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:36
+┌ Info: 2024-08-24 02:09:50 12
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:37
+┌ Info: 2024-08-24 02:09:50 n_products:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:39
+┌ Info: 2024-08-24 02:09:50 5
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:40
+┌ Info: 2024-08-24 02:09:50 n_workers:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:52
+┌ Info: 2024-08-24 02:09:50 3
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:53
+┌ Info: 2024-08-24 02:09:50 Checkpoint: Data Extracted
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:68
+┌ Info: 2024-08-24 02:09:51 Checkpoint: Model Initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:75
+┌ Info: 2024-08-24 02:09:53 Checkpoint: Defined Variables
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:90
+┌ Info: 2024-08-24 02:09:54 Checkpoint: Defined constraints
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:141
+┌ Info: 2024-08-24 02:09:54 Checkpoint: Defined Objective Function
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:206
+┌ Info: 2024-08-24 02:09:57 Checkpoint: Optimized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:211
+┌ Info: 2024-08-24 02:09:57 Checkpoint: Feasibility Verified
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:218
+┌ Info: 2024-08-24 02:09:57 0×5 DataFrame
+│  Row │ t      j      W        H        F
+│      │ Int64  Int64  Float64  Float64  Float64
+│ ─────┴─────────────────────────────────────────
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:229
+┌ Info: 2024-08-24 02:09:57 Checkpoint: results DataFrames initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:243
+┌ Info: 2024-08-24 02:09:57 Checkpoint: results saved
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:276
+┌ Info: 2024-08-24 02:09:57 lib\downloads\optimal_workforce.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:280
+┌ Info: 2024-08-24 02:09:58 lib\downloads\optimal_inventory.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:288
+┌ Info: 2024-08-24 02:09:58 Checkpoint: results written to file
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:295
+┌ Info: 2024-08-24 02:09:58 Checkpoint: results printed (disabled)
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:313
+┌ Info: 2024-08-24 02:09:58 Success!
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:314
+┌ Info: 2024-08-24 02:10:00 1447000
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:504
+┌ Info: 2024-08-24 02:10:00 Checkpoint: Optimized results saved successfully
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:511
+┌ Info: 2024-08-24 02:10:00 Checkpoint: Graphs rendering successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:532
+┌ Info: 2024-08-24 02:10:00 Graph dropdown lists:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:543
+┌ Info: 2024-08-24 02:10:01 ["Select worker type", "1", "2", "3"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:544
+┌ Info: 2024-08-24 02:10:01 ["Select product type", "1", "2", "3", "4", "5"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:545
+┌ Info: 2024-08-24 02:10:01 Checkpoint: Dropdowns updated successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:546
+┌ Info: 2024-08-24 02:10:53 12
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:594
+┌ Info: 2024-08-24 02:10:57 12
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:594
+┌ Info: 2024-08-24 02:11:00 lib\uploads\workers\worker_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:609
+┌ Info: 2024-08-24 02:11:01 Any["", 0, 0, 0, "=", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:792
+┌ Info: 2024-08-24 02:11:01 Any["", 0, 0, 0, "", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:793
+┌ Info: 2024-08-24 02:11:01 Any["", 0, 0, 0, "", 0]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:794
+┌ Info: 2024-08-24 02:11:03 Hi.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:661
+┌ Info: 2024-08-24 02:11:04 AC_List:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:725
+┌ Info: 2024-08-24 02:11:04 Any[Any["H", 3, "n/a", 1, "=", 2]]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:726
+┌ Info: 2024-08-24 02:11:04 Display_List:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:727
+┌ Info: 2024-08-24 02:11:04 Any["H 3 n/a 1 = 2"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:728
+┌ Info: 2024-08-24 02:11:04 Button update complete
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:742
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Custom constraints received
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:490
+┌ Info: 2024-08-24 02:11:06 lib\uploads\demand\demand_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:492
+┌ Info: 2024-08-24 02:11:06 lib\uploads\parameters\para_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:493
+┌ Info: 2024-08-24 02:11:06 lib\uploads\workers\worker_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:494
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Data extracted
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:500
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Function accessed
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:21
+┌ Info: 2024-08-24 02:11:06 n_periods:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:36
+┌ Info: 2024-08-24 02:11:06 12
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:37
+┌ Info: 2024-08-24 02:11:06 n_products:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:39
+┌ Info: 2024-08-24 02:11:06 5
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:40
+┌ Info: 2024-08-24 02:11:06 n_workers:
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:52
+┌ Info: 2024-08-24 02:11:06 3
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:53
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Data Extracted
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:68
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Model Initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:75
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Defined Variables
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:90
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Defined constraints
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:141
+┌ Info: 2024-08-24 02:11:06 Any["H", 3, "n/a", 1, "=", 2]
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:154
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Additional Constraints received successfully.
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:185
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Defined Objective Function
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:206
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Optimized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:211
+┌ Info: 2024-08-24 02:11:06 Checkpoint: Feasibility Verified
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:218
+┌ Info: 2024-08-24 02:11:06 0×5 DataFrame
+│  Row │ t      j      W        H        F
+│      │ Int64  Int64  Float64  Float64  Float64
+│ ─────┴─────────────────────────────────────────
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:229
+┌ Info: 2024-08-24 02:11:06 Checkpoint: results DataFrames initialized
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:243
+┌ Info: 2024-08-24 02:11:06 Checkpoint: results saved
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:276
+┌ Info: 2024-08-24 02:11:06 lib\downloads\optimal_workforce.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:280
+┌ Info: 2024-08-24 02:11:06 lib\downloads\optimal_inventory.csv
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:288
+┌ Info: 2024-08-24 02:11:07 Checkpoint: results written to file
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:295
+┌ Info: 2024-08-24 02:11:07 Checkpoint: results printed (disabled)
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:313
+┌ Info: 2024-08-24 02:11:07 Success!
+└ @ Main.App.Backend c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\lib\Backend_Optimizer.jl:314
+┌ Info: 2024-08-24 02:11:07 1447140
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:504
+┌ Info: 2024-08-24 02:11:07 Checkpoint: Optimized results saved successfully
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:511
+┌ Info: 2024-08-24 02:11:07 Checkpoint: Graphs rendering successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:532
+┌ Info: 2024-08-24 02:11:07 Graph dropdown lists:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:543
+┌ Info: 2024-08-24 02:11:07 ["Select worker type", "1", "2", "3"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:544
+┌ Info: 2024-08-24 02:11:07 ["Select product type", "1", "2", "3", "4", "5"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:545
+┌ Info: 2024-08-24 02:11:07 Checkpoint: Dropdowns updated successfully.
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:546
+┌ Info: 2024-08-24 02:11:19 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:350
+┌ Info: 2024-08-24 02:11:19 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:357
+┌ Info: 2024-08-24 02:11:19 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:11:19 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Error: 2024-08-24 02:11:19 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:363
+┌ Info: 2024-08-24 02:11:19 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:563
+┌ Info: 2024-08-24 02:16:52 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:16:52 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:17:02 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:17:02 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:17:03 
+│ Web Server starting at http://127.0.0.1:9104?CHANNEL__=HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD 
+└ @ Genie.Server C:\Users\kaele\.julia\packages\Genie\uliWf\src\Server.jl:182
+┌ Info: 2024-08-24 02:17:03 Listening on: 127.0.0.1:9104, thread id: 1
+└ @ HTTP.Servers C:\Users\kaele\.julia\packages\HTTP\sJD5V\src\Servers.jl:382
+┌ Info: 2024-08-24 02:17:46 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:17:46 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:18:01 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:350
+┌ Info: 2024-08-24 02:18:01 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:357
+┌ Info: 2024-08-24 02:18:01 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:18:01 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Error: 2024-08-24 02:18:01 UndefVarError(:path)
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:363
+┌ Info: 2024-08-24 02:18:01 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:366
+┌ Info: 2024-08-24 02:18:01 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:565
+┌ Info: 2024-08-24 02:25:08 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:25:09 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:25:20 Watching ["c:\\Users\\kaele\\OneDrive\\Desktop\\2D Project Team 6\\2D-Project-Team-6-APP\\OPTIFLEX Genie App"]
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-24 02:25:20 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:25:21 
+│ Web Server starting at http://127.0.0.1:9104?CHANNEL__=HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD 
+└ @ Genie.Server C:\Users\kaele\.julia\packages\Genie\uliWf\src\Server.jl:182
+┌ Info: 2024-08-24 02:25:21 Listening on: 127.0.0.1:9104, thread id: 1
+└ @ HTTP.Servers C:\Users\kaele\.julia\packages\HTTP\sJD5V\src\Servers.jl:382
+┌ Info: 2024-08-24 02:25:54 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:25:54 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:26:17 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:351
+┌ Info: 2024-08-24 02:26:17 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:358
+┌ Info: 2024-08-24 02:26:17 ["demand_data_final_sample.csv", "para_data_final_sample.csv", "worker_data_final_sample.csv"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:359
+┌ Info: 2024-08-24 02:26:17 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:26:17 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:26:17 demand_data_final_sample.csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Error: 2024-08-24 02:26:17 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:365
+┌ Info: 2024-08-24 02:26:17 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:368
+┌ Info: 2024-08-24 02:26:17 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
+┌ Info: 2024-08-24 02:26:45 Demand file added
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:259
+┌ Info: 2024-08-24 02:26:45 Dict{AbstractString, AbstractString}()
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:260
+┌ Info: 2024-08-24 02:26:46 Demand file uploading
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:291
+┌ Info: 2024-08-24 02:26:46 Select set to:
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:296
+┌ Info: 2024-08-24 02:26:46 Demand
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:297
+┌ Info: 2024-08-24 02:26:47 Demand file upload started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:280
+┌ Info: 2024-08-24 02:26:47 Dict{AbstractString, AbstractString}()
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:281
+┌ Info: 2024-08-24 02:26:48 Checkpoint: onchange activated
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:160
+┌ Info: 2024-08-24 02:26:48 Dict{AbstractString, AbstractString}("name" => "data8 (2).csv", "channel" => "HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD", "path" => "C:\\Users\\kaele\\AppData\\Local\\Temp\\jl_aBepM1sbWD")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:162
+┌ Info: 2024-08-24 02:26:48 Checkpoint: verified that upload exists
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:163
+┌ Info: 2024-08-24 02:26:48 Demand
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:165
+┌ Info: 2024-08-24 02:26:48 data8 (2).csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:168
+┌ Info: 2024-08-24 02:26:48 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
+┌ Info: 2024-08-24 02:26:48 Checkpoint: Upload saved to correct folder
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:210
+┌ Info: 2024-08-24 02:26:48 Dict{AbstractString, AbstractString}("name" => "data8 (2).csv", "channel" => "HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD", "path" => "C:\\Users\\kaele\\AppData\\Local\\Temp\\jl_aBepM1sbWD")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:214
+┌ Info: 2024-08-24 02:26:48 Checkpoint: onchange activated
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:160
+┌ Info: 2024-08-24 02:26:48 Dict{AbstractString, AbstractString}("name" => "data8 (2).csv", "channel" => "HJAHCGUTKOXDBUCOXFDERGQWAOZLQZFD", "path" => "C:\\Users\\kaele\\AppData\\Local\\Temp\\jl_aBepM1sbWD")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:216
+┌ Info: 2024-08-24 02:26:48 Demand file uploaded
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:223
+┌ Info: 2024-08-24 02:26:48 Dict{AbstractString, AbstractString}()
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:224
+┌ Info: 2024-08-24 02:26:48 Checkpoint: onchange activated
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:160
+┌ Info: 2024-08-24 02:26:48 Dict{AbstractString, AbstractString}()
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:226
+┌ Info: 2024-08-24 02:26:48 Checkpoint: Select and fileuploads cleared
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:227
+┌ Info: 2024-08-24 02:26:48 Demand file upload finished
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:319
+┌ Info: 2024-08-24 02:26:50 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:351
+┌ Info: 2024-08-24 02:26:50 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:358
+┌ Info: 2024-08-24 02:26:50 ["data8 (2).csv", "demand_data_final_sample.csv", "para_data_final_sample.csv", "worker_data_final_sample.csv"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:359
+┌ Info: 2024-08-24 02:26:50 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:26:50 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:26:50 data8 (2).csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Error: 2024-08-24 02:26:50 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:365
+┌ Info: 2024-08-24 02:26:50 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:368
+┌ Info: 2024-08-24 02:26:50 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
+┌ Info: 2024-08-24 02:27:34 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:351
+┌ Info: 2024-08-24 02:27:34 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:358
+┌ Info: 2024-08-24 02:27:34 ["data8 (2).csv", "demand_data_final_sample.csv", "para_data_final_sample.csv", "worker_data_final_sample.csv"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:359
+┌ Info: 2024-08-24 02:27:34 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:27:34 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:27:34 data8 (2).csv
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Error: 2024-08-24 02:27:34 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:365
+┌ Info: 2024-08-24 02:27:34 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:368
+┌ Info: 2024-08-24 02:27:34 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
+┌ Info: 2024-08-24 02:28:11 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:28:11 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:28:21 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:351
+┌ Info: 2024-08-24 02:28:21 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:358
+┌ Info: 2024-08-24 02:28:21 ["data8 (2).csv", "demand_data_final_sample.csv", "para_data_final_sample.csv", "worker_data_final_sample.csv"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:359
+┌ Info: 2024-08-24 02:28:21 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:28:21 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:28:21 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Error: 2024-08-24 02:28:21 TypeError(:if, "", Bool, "demand_data_final_sample.csv")
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:365
+┌ Info: 2024-08-24 02:28:21 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:368
+┌ Info: 2024-08-24 02:28:21 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
+┌ Info: 2024-08-24 02:29:08 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:29:08 Autoreloading
+└ @ GenieAutoReload C:\Users\kaele\.julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-24 02:29:13 started
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:351
+┌ Info: 2024-08-24 02:29:13 directories retrieved for deletion
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:358
+┌ Info: 2024-08-24 02:29:13 ["data8 (2).csv", "demand_data_final_sample.csv", "para_data_final_sample.csv", "worker_data_final_sample.csv"]
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:359
+┌ Info: 2024-08-24 02:29:13 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 delete function called
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:26
+┌ Info: 2024-08-24 02:29:13 delete function looping
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:28
+┌ Info: 2024-08-24 02:29:13 String
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:30
+┌ Info: 2024-08-24 02:29:13 sample files protected from deletion!
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:32
+┌ Info: 2024-08-24 02:29:13 all files deleted, resetting all variables
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:368
+┌ Info: 2024-08-24 02:29:13 disabled
+└ @ Main.App c:\Users\kaele\OneDrive\Desktop\2D Project Team 6\2D-Project-Team-6-APP\OPTIFLEX Genie App\app.jl:567
